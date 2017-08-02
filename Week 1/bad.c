@@ -6,6 +6,7 @@
 #include <stdlib.h>
 
 int main (int argc, char *argv[]) {
-    printf ("Drugs are cool kids!\n");
+    printf ("Drugs are cool kids\n");
+
     return EXIT_SUCCESS;
 }
