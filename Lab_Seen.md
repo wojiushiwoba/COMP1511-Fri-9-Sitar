@@ -13,5 +13,8 @@
 | PAIR 9    | z5160626|Anthony W  | z5142018|Ziqi X    | | | |
 | PAIR 10   | z5063062|Liam P     | z5135224|Xiuyi Z   | | | |
 | PAIR 11   | z5096049|Julian TLY | z5108618|Tsan H.L  | | | |
-| PAIR 12   | z5084608|Jasdeep S* | z5180689|Zhuowei G*| | | |
+| PAIR 12   | z5084608|Jasdeep S* | | | | |
+| PAIR 10 + | z5180689|Zhuowei G  | | | | |
+
+group of 3 with PAIR 10
 
