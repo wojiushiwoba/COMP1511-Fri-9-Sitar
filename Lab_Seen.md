@@ -2,7 +2,7 @@
 
 | Pair Name | A zid   | A Name    | B zid   | B Name   | W1 | W2 | W3 | 
 | --------- | --------|---------- | --------|--------- | -- | -- | -- | 
-| PAIR 1    | z5157602|Ying X     | z5134749|Zisen G   | | | |
+| PAIR 1    | z5157602|Ying X     | z5134749|Zisen G   | x | | |
 | PAIR 2    | z5162077|Thomas Z   | z5134920|Ivan T    | | | |
 | PAIR 3    | z5159931|Vincent Z  | z5140809|Zhelin J  | | | |
 | PAIR 4    | z5165068|Jasvir B   | z5142118|Chi Q     | | | |
