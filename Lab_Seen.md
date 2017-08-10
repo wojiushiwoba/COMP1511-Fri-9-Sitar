@@ -18,3 +18,12 @@
 
 group of 3 with PAIR 10
 
+# Code Review
+
+| Week | Pair A | Pair B |
+| ---- | ------ | ------ |
+|  01  |  none  |  none  |
+|  02  |  none  |  none  |
+|  03  |  | |
+|  04  |        |        |
+
