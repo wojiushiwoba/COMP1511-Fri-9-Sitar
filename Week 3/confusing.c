@@ -20,19 +20,25 @@
 
 #include <stdio.h>
 
-int test2( double px, double py, double m, double b )
-{   if( py < m * px + b ) {
-        return -1; // point is under line
-           }else if ( py == m * px + b ){
-           return 0;
-           } else {
-           return 1; // over
-        }
+#define UNDER -1
+
+// Returns if a given point (px,py) is under over or on a line
+// 1 means over the line
+// 0 means on 
+// -1 means under
+int getPointLineStatus( double px, double py, double m, double b )
+{ 
+	if(py < m * px + b) {
+       return UNDER; // point is under line
+    }else if ( py == m * px + b ){
+       return 0; // point is on the line
+    } else {
+       return 1; // point is over
+    }
 }
 
-int // two points lie on the same side of a line
-test1( double px, double py, double m,double b, double lx,double
-ly) {
+int test1( double px, double py, double m,double b, double lx,double ly) {
+		int x = 5 < 6 +1 ;
         return (test2( px,py, m,b )==test2(lx,ly,m,b));
 }
 int tritest(double x0,double y0,double x1,double y1,double
@@ -71,7 +77,7 @@ line3 = ( (px <= x0 ) == (x1 <= x0) );} else {
    return line1 && line2 && line3;
 
 }
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
 double x0,y0,x1,y1,x2,y2,px;
 double py;
 
