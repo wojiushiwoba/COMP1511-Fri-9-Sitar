@@ -24,6 +24,6 @@ group of 3 with PAIR 10
 | ---- | ------ | ------ |
 |  01  |  none  |  none  |
 |  02  |  none  |  none  |
-|  03  |  | |
+|  03  | Zhuowei G |Liam P+Xiuyi Z|
 |  04  |        |        |
 
