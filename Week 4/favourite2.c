@@ -9,7 +9,7 @@
 #define MY_FAVE 17
 
 //function prototypes
-int square (int n);
+int square (int num);
 void printOddOrEven (int n);
 int multiply (int a, int b);
 
@@ -29,11 +29,10 @@ int main (int argc, char *argv[]) {
     printf("You entered %d.\n", num);
     
     //prints double their number
-    multiply(num, 2);
-    int dbl = num;
+    int dbl = multiply(num, 2);
     printf("%d doubled is %d.\n", num, dbl);
     
-    int sq = square(dbl);
+    int sq = square(num);
     printf("%d squared is %d.\n", num, sq);
     
     //prints their favourite times my favourite
