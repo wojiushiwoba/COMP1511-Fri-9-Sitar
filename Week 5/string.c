@@ -9,7 +9,7 @@ int main(int argc, char* argv[]){
 	char stringC[6] = "Hello";
 	char *stringD = "Hello";
 	// play around
-
+	
     return EXIT_SUCCESS;
 }
 
