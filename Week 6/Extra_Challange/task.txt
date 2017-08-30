@@ -1,0 +1,9 @@
+Take server.c and modify it in a number of ways
+
+A) have it return HTML instead of plain text
+B) have it return a simple html message, such as a bolded "hello world"
+C) read through and understand the server so you know how to understand the request
+D) using the request return some html that shows in the center of the screen "hello <NAME>" where NAME is given in the url.
+
+I.e localhost:1511/zain will load up a html page with Hello Zain in the middle of the page. (the exact look isn't as important as getting it to work)
+Run the example executable to get a feel for what you are trying to do.

@@ -26,5 +26,4 @@ group of 3 with PAIR 10
 |  02  |  none  |  none  |
 |  03  | Zhuowei G |Liam P+Xiuyi Z|
 |  04  |Thomas Z   |Ivan T|
-
-
+|  05  | Jack G | Chi Q |
