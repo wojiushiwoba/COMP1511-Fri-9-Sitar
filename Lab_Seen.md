@@ -28,3 +28,4 @@ group of 3 with PAIR 10
 |  04  |Thomas Z   |Ivan T|
 |  05  | Jack G | Chi Q |
 |  06  | Tristan N.D | Haseeb S|
+|  07  | Jessica Ren | Miao Du |
