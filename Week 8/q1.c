@@ -16,5 +16,17 @@
 
 
 int countFavourite (int length, int array[]) {
-    return -1;
+    int i = 0;
+    int result = 0;
+    while(i < length){
+    	if(array[i]%17 == 0){
+    		result++;
+    	}
+    	i++;
+    }
+    return result;
+}
+
+int main(int argc, char* argv[]){
+	return 0;
 }

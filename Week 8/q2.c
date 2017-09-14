@@ -20,12 +20,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int upper(char c);
+
 int containsUppercase (char *string) {
-    return -1;
+	int i = 0;
+	int result = FALSE;
+	while(string[i]!='\0'){
+		if(upper(string[i])){
+			result = TRUE;
+		}
+		i++;
+	}
+    return result;
+}
+
+int upper(char c){
+	int result = FALSE;
+	if(c >= 'A' && c <= 'Z'){
+		result = TRUE;
+	}
+	return result;
 }
 
 int main(int argc, char* argv[]){
-	int res = containsUppercase("");
+	int res = containsUppercase("H");
 	printf("Result: %d\n",res);
 	return EXIT_SUCCESS;
 }

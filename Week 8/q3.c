@@ -33,7 +33,23 @@
 #include <stdlib.h>
 
 int findDuplicate (int length, int array[]) {
-    return -1;
+    int i = 0;
+    int result = 0;
+    int toFind = -1;
+    int j = 0;
+    while(i < length){
+    	toFind = array[i];
+    	j = i+1;
+    	while(j < length){
+    		if(toFind == array[j]){
+    			result = toFind;
+    		}
+    		j++;
+    	}
+    	i++;
+    }
+
+    return result;
 }
 
 int main(int argc, char* argv[]){

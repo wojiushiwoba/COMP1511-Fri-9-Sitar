@@ -4,6 +4,14 @@ struct _complex {
 };
 typedef struct _complex complex;
 
+complex *c = calloc(1,sizeof(complex));
+
+
+(*c).y
+c->y;
+
+
+
 
 
 
