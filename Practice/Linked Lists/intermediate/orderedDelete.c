@@ -26,7 +26,7 @@
  * instead you can assume they are being used elsewhere or
  * they have been declared on the stack so their removal 
  * from the list will not cause a memory leak)
- 
+ *
  * eg running the function on this list:
  *   1->4->2->3->6->6->10->4->X
  * would alter the list to become
